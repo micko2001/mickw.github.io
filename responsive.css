@@ -1,0 +1,99 @@
+@media  (max-width: 1000px) {
+
+    .header-list {
+        margin-left: 350px;
+    }
+
+    .container h1 {
+        
+        font-weight: bolder;
+        line-height: 30px;
+        color: white;
+    }
+    h1{
+        font-size: 25px;
+    }
+
+    .main {
+        background-image: url(img/background.jpg);
+        background-size: cover;
+        height: 500px;
+        padding: 70px 140px 100px 140px;
+        
+        
+    }
+    .lesson-wrapper{
+        height:720px;
+    }
+    .heading{
+        padding-top:80px;
+    }
+    .lesson {
+        width: 50%;
+        margin-bottom: 50px;
+
+    }
+  
+    .img-content{
+    margin: 80px 330px 20px 330px;
+    
+    }    
+    .text-content{
+        text-align:center;
+        padding-top:450px;
+        
+    }
+    
+}
+
+@media   (max-width: 880px) {
+
+    .header-list {
+        margin-left: 300px;
+    }
+
+    .main {
+        padding: 110px 140px 300px 140px;
+    }
+    .container h1 {
+        
+        line-height: 25px;
+       
+    }
+    .img-content{
+        margin: 80px 280px 20px 0px; 
+        
+        }    
+}
+
+@media   (max-width: 670px) {
+
+    .header-list {
+        margin-left: 100px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .main {
+        padding: 75px 60px 200px 60px;
+        height:500px;
+        
+    }
+    .lesson-wrapper{
+        height:1200px;
+    }
+    .lesson {
+        width: 100%;
+        margin-bottom: 40px;
+        
+    }
+    .heading h2 {
+   
+        font-size: 25px;
+    }
+    .img-content{
+        margin: 80px 160px 20px 0px; 
+    }
+}
